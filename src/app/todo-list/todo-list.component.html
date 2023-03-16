@@ -1,0 +1,24 @@
+
+
+
+<h1>{{ title }}</h1>
+
+<div class="form-group">
+    <label for="newTodo">New Todo:</label>
+    <input type="text" class="form-control" [(ngModel)]="newTodo" id="newTodo" (keyup.enter)="addTodo()" />
+    <button class="btn btn-primary mt-2" (click)="addTodo()">Add</button>
+  </div>
+
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let todo of todos; let i = index">
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" [(ngModel)]="todo.done" id="todo{{ i }}" />
+      <label class="form-check-label" for="todo{{ i }}">
+        <span [class.done]="todo.done">{{ todo.text }}</span>
+      </label>
+      <button class="btn btn-danger btn-sm ml-2" (click)="removeTodo(i)">X</button>
+
+    
+    </div>
+  </li>
+</ul>
