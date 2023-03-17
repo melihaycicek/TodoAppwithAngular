@@ -1,0 +1,37 @@
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .list-group-item input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  
+  .list-group-item .close {
+    font-size: 1.5rem;
+  }
+  .completed {
+    text-decoration: line-through;
+  }
+  
+
+  .container {
+    position: fixed;
+    width: 100%;
+    max-width: 1200px; /* veya istediğiniz herhangi bir maksimum genişlik */
+  }
+  
+  .list-group-item {
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .input-group mb-3{width: 300px!important;}
+
+  .form-control ng-untouched ng-pristine ng-valid{
+    width: 300px;
+  }
+
+  .mb-3{width: 300px;}
