@@ -10,6 +10,7 @@ https://user-images.githubusercontent.com/61455803/226105539-f61f2815-9804-46c5-
 
 # Key Features
 
+-Built with Angular framework and advanced search algorithm for easy access
 - Add new tasks to the list with a click of a button or by pressing the enter key
 - Edit and delete tasks as needed
 - Mark tasks as complete to keep track of progress
