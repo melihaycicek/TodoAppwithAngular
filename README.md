@@ -4,6 +4,10 @@ A simple TodoList application built with Angular.
 
 This is an interactive Todo List application built with Angular, designed to help users keep track of their tasks and manage their time effectively. The app includes a user-friendly interface that allows users to easily add, edit, and delete tasks, as well as mark them as complete.
 
+
+https://user-images.githubusercontent.com/61455803/226105539-f61f2815-9804-46c5-9431-8d25817d2f9c.mp4
+
+
 # Key Features
 
 - Add new tasks to the list with a click of a button or by pressing the enter key
